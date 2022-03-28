@@ -1,0 +1,116 @@
+/* NAV */
+
+.main-nav.small {
+    background: #03A9F4;
+}
+
+@media (max-width: 767px) {
+
+    .main-nav {
+        background: #03A9F4;
+    }
+
+    .navbar-toggle {
+        border: 1px solid #444444;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #444444;
+    }
+}
+
+a,
+#home-slider .caption h1 span,
+#twitter-carousel .item span,
+#footer .footer-bottom,
+#single-portfolio .close-folio-item:hover,
+.single-table.featured .btn.btn-primary,
+.contact-info ul li a:hover,
+#footer .footer-bottom a,
+#main-slider .slider-inner h2 > span {
+    color: #e96358;
+}
+
+.btn.btn-primary:hover,
+.btn-submit:hover, #main-slider .owl-prev:hover, #main-slider .owl-next:hover {
+    background-color: #027db3
+}
+
+.navbar-nav li.active a,
+a:hover, a:focus,
+.trade_item ul li a:hover, .trade_item ul li a:focus, .trade_item .active a,
+.post-title
+{
+    color: #e96358;
+}
+
+.navbar-nav li a{
+    color: #000;
+}
+
+.service-icon,
+.progress-bar.progress-bar-primary,
+.single-table.featured,
+.btn.btn-primary,
+.twitter-icon .fa-twitter,
+.twitter-left-control:hover, .twitter-right-control:hover,
+.post-icon,
+.entry-header .date:after,
+.btn-loadmore:hover,
+.btn-submit,
+#footer,
+.caption .btn-start:hover,
+.left-control:hover,
+.right-control:hover,
+.folio-overview a:hover, #bar {
+    background-color: #03A9F4;
+}
+
+.twitter-left-control:hover,
+.twitter-right-control:hover,
+.btn-loadmore:hover {
+    border: 1px solid #03A9F4;
+}
+
+.caption .btn-start:hover,
+.left-control:hover,
+.right-control:hover {
+    border-color: #03A9F4;
+}
+
+.twitter-icon .fa-twitter:after {
+    border-color: #03A9F4 transparent transparent;
+}
+
+.button-primary {
+    -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    box-shadow: inset 0px 0px 0px 0px #ffffff;
+    background-color: #03A9F4;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 4px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.button-primary:hover {
+    color: #fff;
+    background-color: #027eb3;
+}
+
+#nav_bar {
+    background-color: #ffffff;
+    z-index: 99999999;
+}
+
+.nav-shadow {
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
